@@ -1,0 +1,33 @@
+{
+  "name": "jcbaumann/laravel-german-invoices",
+  "description": "A Laravel package to create german invoices in PDF format",
+  "type": "library",
+  "keywords": [
+    "Laravel", "Invoices", "German Invoices", "PDF", "Open Source", "PDF Generator", "Customer Invoice", "Customer", "Jonathan Baumann", "Jonathan C. Baumann"
+  ],
+  "require": {
+    "illuminate/support": "5.*",
+    "dompdf/dompdf": "^0.8"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jonathan C. Baumann",
+      "email": "info@jonathan-baumann.de",
+      "homepage": "https://jonathan-baumann.de",
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "JCBaumann\\GermanInvoices\\": "."
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "JCBaumann\\GermanInvoices\\GermanInvoicesServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
